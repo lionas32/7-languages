@@ -17,6 +17,6 @@ sorted([], []).
 sorted([Head|[]], [Head|[]]).
 sorted([Head,Head2|Tail], Sorted)
     :- (
-        Head < Head2 -> sorted([Head2|Tail], Tai2), append([Head], Tail2, Sorted)
+        Head < Head2 -> sorted([Head2|Tail], Tail2), append([Head], Tail2, Sorted)
     ;   sorted([Head2,Head|Tail], Sorted2), sorted(Sorted2, Sorted)
     ).
