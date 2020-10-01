@@ -9,3 +9,4 @@ Hi there! This is my repository consisting of solutions for the different tasks 
 - [Ruby](Ruby)
 - [Io](Io)
 - [Prolog (GNU Version)](Prolog)
+- [Scala](Scala)
